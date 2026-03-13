@@ -111,11 +111,11 @@ Aguarde a revisão da equipe
 Caso queira testar o merge antes de finalizar a branch:
 Ir para a branch principal:
 ```bash
-git checkout main
+git checkout develop
 ```
 Criar uma branch de teste apartir da main:
 ```bash
-git checkout -b main-teste-funcionalidade
+git checkout -b develop-teste-funcionalidade
 ```
 Fazer merge da sua feature:
 ```bash
@@ -150,7 +150,7 @@ develop (git pull origin develop)
                      │
                      └── push (git push origin feature/nome-da-funcionalidade)
                              │
-                             └── testando o merge localmente (git checkout -b main-teste-funcionalidade)
+                             └── testando o merge localmente (git checkout -b develop-teste-funcionalidade)
                                      │
                                      └── após o review (git flow feature finish nome-da-funcionalidade)
                                                │
