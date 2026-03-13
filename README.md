@@ -154,6 +154,6 @@ develop (git pull origin develop)
                                      │
                                      └── após o review (git flow feature finish nome-da-funcionalidade)
                                                │
-                                               └── resolva os conflitos no merge entre a fucnionalidade e a develop
+                                               └── resolva os conflitos no merge entre a funcionalidade e a develop
 
 ```
