@@ -66,7 +66,7 @@ git flow feature start nome-da-funcionalidade
 
 # 💾 Salvando alterações (Commit)
 ```bash
-git add . && git commit -m "feat: adiciona funcionalidade de busca de produtos"
+git add . && git commit -m "feat(US01-01): Implementado conexão com o Banco de Dados" -m "Incremento de um micro-serviço 'MongoDBConnectionService' para conectar o MongoDB ao backend da aplicação, permitindo operações de leitura e escrita de forma padronizada e centralizada."
 ```
 
 # 📜 Visualizando histórico de commits
