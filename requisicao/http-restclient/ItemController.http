@@ -1,0 +1,225 @@
+@baseUrl = http://localhost:8080
+
+### PROJETO 1 - MSF4321
+
+### ITEM 1
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "MSF-001",
+  "descricao": "Levantamento de requisitos do sistema",
+  "dataAtribuicao": "2026-04-16",
+  "previsaoHoras": 4,
+  "nivelAtividade": "ANALISE",
+  "usuarioId": "9428b54f-709f-4e7f-82af-810d1b426f6e",
+  "projetoId": 1
+}
+
+### Listar itens por projeto
+GET {{baseUrl}}/itens/projeto/1
+Content-Type: application/json
+
+### Listar itens por profissional (UUID)
+GET {{baseUrl}}/itens/profissional/9428b54f-709f-4e7f-82af-810d1b426f6e
+Content-Type: application/json
+
+### ITEM 2
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "MSF-002",
+  "descricao": "Implementação da API de autenticação",
+  "dataAtribuicao": "2026-04-17",
+  "previsaoHoras": 8,
+  "nivelAtividade": "DESENVOLVIMENTO",
+  "usuarioId": "9428b54f-709f-4e7f-82af-810d1b426f6e",
+  "projetoId": 1
+}
+
+### ITEM 3
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "MSF-003",
+  "descricao": "Criação de testes unitários",
+  "dataAtribuicao": "2026-04-18",
+  "previsaoHoras": 5,
+  "nivelAtividade": "TESTE",
+  "usuarioId": "e16a87b5-0eeb-450b-8c60-f6c42e6d973c",
+  "projetoId": 1
+}
+
+### ITEM 4
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "MSF-004",
+  "descricao": "Modelagem do banco de dados",
+  "dataAtribuicao": "2026-04-19",
+  "previsaoHoras": 6,
+  "nivelAtividade": "ANALISE",
+  "usuarioId": "e16a87b5-0eeb-450b-8c60-f6c42e6d973c",
+  "projetoId": 1
+}
+
+### ITEM 5
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "MSF-005",
+  "descricao": "Deploy inicial da aplicação",
+  "dataAtribuicao": "2026-04-20",
+  "previsaoHoras": 3,
+  "nivelAtividade": "DESENVOLVIMENTO",
+  "usuarioId": "9428b54f-709f-4e7f-82af-810d1b426f6e",
+  "projetoId": 1
+}
+
+### PROJETO 2 - GGL2468
+
+### ITEM 1
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "GGL-001",
+  "descricao": "Configuração do cluster Kubernetes",
+  "dataAtribuicao": "2026-05-10",
+  "previsaoHoras": 10,
+  "nivelAtividade": "DESENVOLVIMENTO",
+  "usuarioId": "69de3109-a992-473f-b28f-b7abd0badd8d",
+  "projetoId": 2
+}
+
+### ITEM 2
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "GGL-002",
+  "descricao": "Integração de microserviços",
+  "dataAtribuicao": "2026-05-11",
+  "previsaoHoras": 7,
+  "nivelAtividade": "DESENVOLVIMENTO",
+  "usuarioId": "69de3109-a992-473f-b28f-b7abd0badd8d",
+  "projetoId": 2
+}
+
+### ITEM 3
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "GGL-003",
+  "descricao": "Testes de integração",
+  "dataAtribuicao": "2026-05-12",
+  "previsaoHoras": 6,
+  "nivelAtividade": "TESTE",
+  "usuarioId": "99fa93e2-3382-40b1-b6e2-e6d7bd089d6b",
+  "projetoId": 2
+}
+
+### ITEM 4
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "GGL-004",
+  "descricao": "Modelagem de dados",
+  "dataAtribuicao": "2026-05-13",
+  "previsaoHoras": 5,
+  "nivelAtividade": "ANALISE",
+  "usuarioId": "99fa93e2-3382-40b1-b6e2-e6d7bd089d6b",
+  "projetoId": 2
+}
+
+### ITEM 5
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "GGL-005",
+  "descricao": "Deploy em produção",
+  "dataAtribuicao": "2026-05-14",
+  "previsaoHoras": 4,
+  "nivelAtividade": "DESENVOLVIMENTO",
+  "usuarioId": "69de3109-a992-473f-b28f-b7abd0badd8d",
+  "projetoId": 2
+}
+
+### PROJETO 3 - OAI1357
+
+### ITEM 1
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "OAI-001",
+  "descricao": "Treinamento do modelo IA",
+  "dataAtribuicao": "2026-06-02",
+  "previsaoHoras": 12,
+  "nivelAtividade": "ANALISE",
+  "usuarioId": "529242f4-933b-4b1d-b3d5-59fe97a6baa1",
+  "projetoId": 3
+}
+
+### ITEM 2
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "OAI-002",
+  "descricao": "Integração com API GPT",
+  "dataAtribuicao": "2026-06-03",
+  "previsaoHoras": 10,
+  "nivelAtividade": "DESENVOLVIMENTO",
+  "usuarioId": "529242f4-933b-4b1d-b3d5-59fe97a6baa1",
+  "projetoId": 3
+}
+
+### ITEM 3
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "OAI-003",
+  "descricao": "Testes do modelo",
+  "dataAtribuicao": "2026-06-04",
+  "previsaoHoras": 6,
+  "nivelAtividade": "TESTE",
+  "usuarioId": "b08080e8-3b92-4ca7-9871-4f8ba071aeb1",
+  "projetoId": 3
+}
+
+### ITEM 4
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "OAI-004",
+  "descricao": "Estruturação de dados",
+  "dataAtribuicao": "2026-06-05",
+  "previsaoHoras": 5,
+  "nivelAtividade": "ANALISE",
+  "usuarioId": "b08080e8-3b92-4ca7-9871-4f8ba071aeb1",
+  "projetoId": 3
+}
+
+### ITEM 5
+POST {{baseUrl}}/itens/cadastro/item
+Content-Type: application/json
+
+{
+  "titulo": "OAI-005",
+  "descricao": "Deploy do modelo em produção",
+  "dataAtribuicao": "2026-06-06",
+  "previsaoHoras": 8,
+  "nivelAtividade": "DESENVOLVIMENTO",
+  "usuarioId": "529242f4-933b-4b1d-b3d5-59fe97a6baa1",
+  "projetoId": 3
+}

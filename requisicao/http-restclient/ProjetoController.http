@@ -1,0 +1,156 @@
+@baseUrl = http://localhost:8080
+
+### Microsoft - Azure Migration Core
+POST {{baseUrl}}/cadastrar/projeto
+Content-Type: application/json
+
+{
+  "nomeProjeto": "MSF4321",
+  "tipoProjeto": "Alocacao",
+  "valorOrcamento": 80000.00,
+  "dataInicio": "2026-04-15",
+  "dataFim": "2026-07-30",
+  "status": "Andamento",
+  "gestorId": "c39a2180-dd47-42a5-9ad0-f83254d6cc7e",
+  "clienteId": 1,
+  "profissionaisIds": [
+    "9428b54f-709f-4e7f-82af-810d1b426f6e",
+    "e16a87b5-0eeb-450b-8c60-f6c42e6d973c"
+  ]
+}
+
+### Listar Projetos
+GET {{baseUrl}}/listar/projetos
+
+### Buscar Projeto por ID
+GET {{baseUrl}}/listar/projetos/1
+
+### Google - Kubernetes Platform Expansion
+POST {{baseUrl}}/cadastrar/projeto
+Content-Type: application/json
+
+{
+  "nomeProjeto": "GGL2468",
+  "tipoProjeto": "Alocacao",
+  "valorOrcamento": 95000.00,
+  "dataInicio": "2026-05-10",
+  "dataFim": "2026-10-10",
+  "status": "Andamento",
+  "gestorId": "c39a2180-dd47-42a5-9ad0-f83254d6cc7e",
+  "clienteId": 2,
+  "profissionaisIds": [
+    "69de3109-a992-473f-b28f-b7abd0badd8d",
+    "99fa93e2-3382-40b1-b6e2-e6d7bd089d6b"
+  ]
+}
+
+### OpenAI - GPT API Scaling
+POST {{baseUrl}}/cadastrar/projeto
+Content-Type: application/json
+
+{
+  "nomeProjeto": "OAI1357",
+  "tipoProjeto": "Hora_Fechada",
+  "valorOrcamento": 100000.00,
+  "dataInicio": "2026-06-01",
+  "dataFim": "2026-12-31",
+  "status": "Desenvolvimento",
+  "gestorId": "c39a2180-dd47-42a5-9ad0-f83254d6cc7e",
+  "clienteId": 3,
+  "profissionaisIds": [
+    "529242f4-933b-4b1d-b3d5-59fe97a6baa1",
+    "b08080e8-3b92-4ca7-9871-4f8ba071aeb1"
+  ]
+}
+
+### AWS - EC2 + Cloud Scaling Infra
+POST {{baseUrl}}/cadastrar/projeto
+Content-Type: application/json
+
+{
+  "nomeProjeto": "AWS8642",
+  "tipoProjeto": "Alocacao",
+  "valorOrcamento": 90000.00,
+  "dataInicio": "2026-04-20",
+  "dataFim": "2026-11-20",
+  "status": "Andamento",
+  "gestorId": "c39a2180-dd47-42a5-9ad0-f83254d6cc7e",
+  "clienteId": 4,
+  "profissionaisIds": [
+    "8bcbfe50-524e-4464-aa06-fad512dd9478",
+    "1b0066ac-70f0-4adb-95ff-c7861d57e82d"
+  ]
+}
+
+### Meta - AI Social Graph System
+POST {{baseUrl}}/cadastrar/projeto
+Content-Type: application/json
+
+{
+  "nomeProjeto": "MTA7777",
+  "tipoProjeto": "Alocacao",
+  "valorOrcamento": 70000.00,
+  "dataInicio": "2026-05-15",
+  "dataFim": "2026-11-15",
+  "status": "Andamento",
+  "gestorId": "c39a2180-dd47-42a5-9ad0-f83254d6cc7e",
+  "clienteId": 5,
+  "profissionaisIds": [
+    "9428b54f-709f-4e7f-82af-810d1b426f6e"
+  ]
+}
+
+### GitHub - CI/CD Pipeline Enterprise
+POST {{baseUrl}}/cadastrar/projeto
+Content-Type: application/json
+
+{
+  "nomeProjeto": "GTH1234",
+  "tipoProjeto": "Hora_Fechada",
+  "valorOrcamento": 55000.00,
+  "dataInicio": "2026-06-10",
+  "dataFim": "2026-09-10",
+  "status": "Desenvolvimento",
+  "gestorId": "c39a2180-dd47-42a5-9ad0-f83254d6cc7e",
+  "clienteId": 10,
+  "profissionaisIds": [
+    "69de3109-a992-473f-b28f-b7abd0badd8d",
+    "b08080e8-3b92-4ca7-9871-4f8ba071aeb1"
+  ]
+}
+
+### IBM - Legacy Modernization System
+POST {{baseUrl}}/cadastrar/projeto
+Content-Type: application/json
+
+{
+  "nomeProjeto": "IBM9087",
+  "tipoProjeto": "Alocacao",
+  "valorOrcamento": 100000.00,
+  "dataInicio": "2026-04-25",
+  "dataFim": "2026-12-25",
+  "status": "Andamento",
+  "gestorId": "c39a2180-dd47-42a5-9ad0-f83254d6cc7e",
+  "clienteId": 8,
+  "profissionaisIds": [
+    "8bcbfe50-524e-4464-aa06-fad512dd9478"
+  ]
+}
+
+### Oracle - Database Cloud Migration
+POST {{baseUrl}}/cadastrar/projeto
+Content-Type: application/json
+
+{
+  "nomeProjeto": "ORC3456",
+  "tipoProjeto": "Alocacao",
+  "valorOrcamento": 98000.00,
+  "dataInicio": "2026-05-05",
+  "dataFim": "2026-10-05",
+  "status": "Andamento",
+  "gestorId": "c39a2180-dd47-42a5-9ad0-f83254d6cc7e",
+  "clienteId": 9,
+  "profissionaisIds": [
+    "99fa93e2-3382-40b1-b6e2-e6d7bd089d6b"
+  ]
+}

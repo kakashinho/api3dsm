@@ -1,0 +1,34 @@
+@baseUrl = http://localhost:8080
+
+### PROJETO 1 - MSF4321 (vincular usuário extra)
+POST {{baseUrl}}/associar-projeto
+Content-Type: application/json
+
+{
+  "projetoId": 1,
+  "usuarioId": [
+    "8bcbfe50-524e-4464-aa06-fad512dd9478"
+  ]
+}
+
+### PROJETO 2 - GGL2468 (vincular usuário extra)
+POST {{baseUrl}}/associar-projeto
+Content-Type: application/json
+
+{
+  "projetoId": 2,
+  "usuarioId": [
+    "9428b54f-709f-4e7f-82af-810d1b426f6e"
+  ]
+}
+
+### PROJETO 3 - OAI1357 (vincular usuário extra)
+POST {{baseUrl}}/associar-projeto
+Content-Type: application/json
+
+{
+  "projetoId": 3,
+  "usuarioId": [
+    "99fa93e2-3382-40b1-b6e2-e6d7bd089d6b"
+  ]
+}

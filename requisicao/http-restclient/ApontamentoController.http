@@ -1,0 +1,116 @@
+@baseUrl = http://localhost:8080
+
+### Listar todos os apontamentos
+GET {{baseUrl}}/apontamentos
+Content-Type: application/json
+
+### Buscar apontamento por ID
+GET {{baseUrl}}/apontamentos/1
+Content-Type: application/json
+
+### Buscar apontamentos por usuário
+GET {{baseUrl}}/apontamentos/usuario/9428b54f-709f-4e7f-82af-810d1b426f6e
+Content-Type: application/json
+
+### Atualizar apontamento
+PATCH {{baseUrl}}/apontamentos/1
+Content-Type: application/json
+
+{
+  "horaFim": "2026-04-06T13:00:00",
+  "observacao": "Ajuste de horário final"
+}
+
+### Deletar apontamento
+DELETE {{baseUrl}}/apontamentos/1
+Content-Type: application/json
+
+### Criar apontamento (Item 1 - MSF)
+POST {{baseUrl}}/apontamentos
+Content-Type: application/json
+
+{
+"itemId": 1,
+"usuarioId": "9428b54f-709f-4e7f-82af-810d1b426f6e",
+"dataApontamento": "2026-04-06T00:00:00",
+"horaInicio": "2026-04-06T08:00:00",
+"horaFim": "2026-04-06T12:00:00",
+"pausaInicio": "2026-04-06T10:00:00",
+"pausaFim": "2026-04-06T10:15:00",
+"observacao": "Desenvolvimento inicial do sistema"
+}
+
+### Criar apontamento (Item 2 - MSF)
+POST {{baseUrl}}/apontamentos
+Content-Type: application/json
+
+{
+"itemId": 2,
+"usuarioId": "9428b54f-709f-4e7f-82af-810d1b426f6e",
+"dataApontamento": "2026-04-07T00:00:00",
+"horaInicio": "2026-04-07T09:00:00",
+"horaFim": "2026-04-07T18:00:00",
+"pausaInicio": "2026-04-07T12:00:00",
+"pausaFim": "2026-04-07T13:00:00",
+"observacao": "Implementação da API de autenticação"
+}
+
+### Criar apontamento (Item 3 - GGL)
+POST {{baseUrl}}/apontamentos
+Content-Type: application/json
+
+{
+"itemId": 8,
+"usuarioId": "69de3109-a992-473f-b28f-b7abd0badd8d",
+"dataApontamento": "2026-04-08T00:00:00",
+"horaInicio": "2026-04-08T09:00:00",
+"horaFim": "2026-04-08T18:00:00",
+"pausaInicio": "2026-04-08T12:00:00",
+"pausaFim": "2026-04-08T13:00:00",
+"observacao": "Configuração de Kubernetes"
+}
+
+### Criar apontamento (Item 4 - GGL)
+POST {{baseUrl}}/apontamentos
+Content-Type: application/json
+
+{
+"itemId": 9,
+"usuarioId": "69de3109-a992-473f-b28f-b7abd0badd8d",
+"dataApontamento": "2026-04-09T00:00:00",
+"horaInicio": "2026-04-09T08:30:00",
+"horaFim": "2026-04-09T17:30:00",
+"pausaInicio": "2026-04-09T12:00:00",
+"pausaFim": "2026-04-09T13:00:00",
+"observacao": "Integração de microserviços"
+}
+
+### Criar apontamento (Item 5 - OAI)
+POST {{baseUrl}}/apontamentos
+Content-Type: application/json
+
+{
+"itemId": 13,
+"usuarioId": "529242f4-933b-4b1d-b3d5-59fe97a6baa1",
+"dataApontamento": "2026-04-10T00:00:00",
+"horaInicio": "2026-04-10T08:00:00",
+"horaFim": "2026-04-10T17:00:00",
+"pausaInicio": "2026-04-10T12:00:00",
+"pausaFim": "2026-04-10T13:00:00",
+"observacao": "Treinamento do modelo IA"
+}
+
+### Criar apontamento (Item 4 - MSF extra)
+POST {{baseUrl}}/apontamentos
+Content-Type: application/json
+
+{
+  "itemId": 4,
+  "usuarioId": "e16a87b5-0eeb-450b-8c60-f6c42e6d973c",
+  "dataApontamento": "2026-04-10T00:00:00",
+  "horaInicio": "2026-04-10T19:00:00",
+  "horaFim": "2026-04-10T21:00:00",
+  "pausaInicio": null,
+  "pausaFim": null,
+  "observacao": "Atividade extra sem conflito"
+}

@@ -1,0 +1,131 @@
+@baseUrl = http://localhost:4010
+
+### Cadastrar usuário - Linus
+POST {{baseUrl}}/cadastrar/usuario
+Content-Type: application/json
+
+{
+  "nomeUsuario": "linus",
+  "email": "linus.t@gmail.com",
+  "senha": "Senha@123",
+  "valorHora": 50.00,
+  "cargo": "Profissional",
+  "nivelExperiencia": "Sênior"
+}
+
+### Cadastrar usuário - Grace
+POST {{baseUrl}}/cadastrar/usuario
+Content-Type: application/json
+
+{
+  "nomeUsuario": "gracehopper",
+  "email": "grace.h@gmail.com",
+  "senha": "Senha@123",
+  "valorHora": 45.00,
+  "cargo": "Profissional",
+  "nivelExperiencia": "Sênior"
+}
+
+### Cadastrar usuário - Ada
+POST {{baseUrl}}/cadastrar/usuario
+Content-Type: application/json
+
+{
+  "nomeUsuario": "adalovelace",
+  "email": "ada.l@gmail.com",
+  "senha": "Senha@123",
+  "valorHora": 40.00,
+  "cargo": "Profissional",
+  "nivelExperiencia": "Pleno"
+}
+
+### Cadastrar usuário - Alan (Gestor)
+POST {{baseUrl}}/cadastrar/usuario
+Content-Type: application/json
+
+{
+  "nomeUsuario": "aturing",
+  "email": "alan.t@gmail.com",
+  "senha": "Senha@123",
+  "valorHora": 60.00,
+  "cargo": "Gestor",
+  "nivelExperiencia": "Sênior"
+}
+
+### Cadastrar usuário - Ken (inativo não dá via endpoint direto)
+POST {{baseUrl}}/cadastrar/usuario
+Content-Type: application/json
+
+{
+  "nomeUsuario": "kent",
+  "email": "ken.t@gmail.com",
+  "senha": "Senha@123",
+  "valorHora": 25.00,
+  "cargo": "Profissional",
+  "nivelExperiencia": "Júnior"
+}
+
+### Cadastrar usuário - Margaret
+POST {{baseUrl}}/cadastrar/usuario
+Content-Type: application/json
+
+{
+  "nomeUsuario": "margareth",
+  "email": "margaret.h@gmail.com",
+  "senha": "Senha@123",
+  "valorHora": 38.00,
+  "cargo": "Profissional",
+  "nivelExperiencia": "Pleno"
+}
+
+### Cadastrar usuário - Dennis
+POST {{baseUrl}}/cadastrar/usuario
+Content-Type: application/json
+
+{
+  "nomeUsuario": "dennis",
+  "email": "dennis.r@gmail.com",
+  "senha": "Senha@123",
+  "valorHora": 42.00,
+  "cargo": "Profissional",
+  "nivelExperiencia": "Sênior"
+}
+
+### Cadastrar usuário - Barbara (Gestor)
+POST {{baseUrl}}/cadastrar/usuario
+Content-Type: application/json
+
+{
+  "nomeUsuario": "barbaraliskov",
+  "email": "barbara.l@gmail.com",
+  "senha": "Senha@123",
+  "valorHora": 65.00,
+  "cargo": "Gestor",
+  "nivelExperiencia": "Sênior"
+}
+
+### Cadastrar usuário - Guido
+POST {{baseUrl}}/cadastrar/usuario
+Content-Type: application/json
+
+{
+  "nomeUsuario": "gvanrossum",
+  "email": "guido.v@gmail.com",
+  "senha": "Senha@123",
+  "valorHora": 48.00,
+  "cargo": "Profissional",
+  "nivelExperiencia": "Pleno"
+}
+
+### Cadastrar usuário - Tim
+POST {{baseUrl}}/cadastrar/usuario
+Content-Type: application/json
+
+{
+  "nomeUsuario": "timb",
+  "email": "tim.b@gmail.com",
+  "senha": "Senha@123",
+  "valorHora": 30.00,
+  "cargo": "Profissional",
+  "nivelExperiencia": "Júnior"
+}
